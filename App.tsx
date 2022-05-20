@@ -7,7 +7,7 @@ export default function App() {
     const [login, setLogin] = useState('')
 
     if (login==='Hello'){
-        return <TabPage/>
+        return <TabPage setLogin={setLogin}/>
     }
 
     return (
